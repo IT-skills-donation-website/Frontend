@@ -1,0 +1,107 @@
+/* Container styles */
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+/* Logo and settings button styles */
+.logoContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 2rem;
+}
+
+.logo {
+	font-weight: bold;
+}
+
+.settingButton {
+	font-size: 0.8rem;
+	text-transform: none;
+	color: #000;
+}
+
+/* Form styles */
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.formContainer h2 {
+	margin-bottom: 2rem;
+}
+
+.input {
+	margin-bottom: 1.5rem;
+}
+
+.submitButton {
+	margin-top: 1.5rem;
+	background-color: #00bfa5;
+	color: #fff;
+	font-weight: bold;
+	text-transform: none;
+	/* &:hover {
+		background-color: #009e87;
+	} */
+}
+
+/* Footer styles */
+.footerContainer {
+	margin-top: auto;
+	padding: 1rem;
+	width: 100%;
+	background-color: #e0e0e0;
+}
+
+.footerText {
+	text-align: center;
+}
+
+/* .App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */
